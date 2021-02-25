@@ -4,9 +4,9 @@
 }
 
 .ta-navigation {
-  border-top: 3px solid #ff2;
+  border-top: 3px solid #ff2 !important;
 }
 
 .ta-staging__indicator {
-  display: none;
+  display: none !important;
 }
