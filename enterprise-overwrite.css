@@ -1,0 +1,12 @@
+.ta-blue-template-badge {
+  color: white !important;
+  background-color: black !important;
+}
+
+.ta-navigation {
+  border-top: 3px solid #ff2;
+}
+
+.ta-staging__indicator {
+  display: none;
+}
