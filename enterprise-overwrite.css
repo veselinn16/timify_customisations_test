@@ -10,3 +10,170 @@
 .ta-staging__indicator {
   display: none !important;
 }
+
+/* WIDGET DERMEDIS */
+
+.ta-widget__container {
+  background: #ffffff;
+}
+.ta-footer__shadow {
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0), #ffffff);
+}
+.ta-next-step {
+  background: #ffffff;
+}
+.ta-upselling__container {
+  background: #ffffff;
+}
+.ta-widget.overwrite .ta-section-title,
+.ta-widget.overwrite .ta-simple-list-item,
+.ta-widget.overwrite .ta-simple-list-item__description,
+.ta-widget.overwrite .ta-booking-info,
+.ta-widget.overwrite .ta-datepicker .ta-datepicker__main,
+.ta-widget.overwrite .ta-small-title,
+.ta-widget.overwrite .ta-dotted-title,
+.ta-widget.overwrite .ta-text-box,
+.ta-widget.overwrite .ta-checkbox,
+.ta-widget.overwrite .ta-lined-title {
+  color: #4d4d4d;
+}
+.ta-widget.overwrite .ta-lined-title .ta-lined-title__label:after,
+.ta-widget.overwrite .ta-lined-title .ta-lined-title__label:before {
+  border-color: #4d4d4d;
+} /* HEADER */
+.ta-widget.overwrite .ta-header__container {
+  background: #4d4d4d;
+}
+.ta-widget.overwrite .ta-header__title {
+  color: #ffffff;
+}
+.ta-header__back_button {
+  color: #ffffff;
+}
+.ta-language-selector__selector,
+.ta-language-selector__open .ta-language-selector__selector {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+.ta-language-selector__options {
+  border-color: #ffffff;
+} /* CLOSE BUTTON */
+.ta-widget.overwrite .ta-widget__close_button {
+  background: #bfbfbf;
+  color: #ffffff;
+}
+.ta-widget.overwrite .ta-widget__close_button:hover {
+  background: #8e8e8e;
+  color: #ffffff;
+} /* LOADER */
+.ta-widget.overwrite .ta-enterprise-loader .ta-enterprise-loader__box {
+  background: #8e8e8e;
+  color: #ffffff;
+} /* LOGO */
+.ta-widget.overwrite .ta-widget__steps,
+.ta-widget.overwrite .ta-footer.active {
+  bottom: 50px;
+}
+.ta-widget.overwrite .ta-enterprise-logo {
+  background-image: url("https://cdn.timify.com/uploads/companypartners/dermedis_logo_grau-20200327115435-151.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto 40px;
+  bottom: 5px;
+}
+.ta-widget.overwrite .ta-enterprise-logo {
+  background-color: #ffffff;
+} /* BUTTONS */
+.ta-widget.overwrite .ta-cta-primary {
+  background: #005092;
+  color: #ffffff;
+}
+.ta-widget.overwrite .ta-cta-primary:hover {
+  background: #005092;
+  color: #ffffff;
+} /* SERVICES */
+.ta-widget.overwrite .ta-services .ta-simple-list-item,
+.ta-widget.overwrite .ta-upselling__body .ta-simple-list-item {
+  background: #e4e4e4;
+  border-color: #8e8e8e;
+  color: #4d4d4d;
+}
+.ta-widget.overwrite .ta-simple-list-item__description,
+.ta-widget.overwrite .ta-upselling__body .ta-simple-list-item__description {
+  background: #e4e4e4;
+  color: #4d4d4d;
+}
+.ta-widget.overwrite .ta-services .ta-lined-title .ta-lined-title__label {
+  color: #4d4d4d;
+}
+.ta-widget.overwrite .ta-services .ta-lined-title .ta-lined-title__label:after,
+.ta-widget.overwrite .ta-services .ta-lined-title .ta-lined-title__label:before {
+  border-color: #4d4d4d;
+}
+.ta-widget.overwrite .ta-services__service:hover .ta-simple-list-item,
+.ta-widget.overwrite .ta-services__service:hover .ta-simple-list-item__description,
+.ta-widget.overwrite .ta-simple-list-item:hover {
+  background: #e4e4e4;
+  border-color: #4d4d4d;
+  color: #4d4d4d;
+}
+.ta-widget.overwrite .ta-services__service:hover .ta-lined-title .ta-lined-title__label {
+  color: #4d4d4d;
+}
+.ta-widget.overwrite .ta-services__service:hover .ta-lined-title .ta-lined-title__label:after,
+.ta-widget.overwrite .ta-services__service:hover .ta-lined-title .ta-lined-title__label:before {
+  border-color: #4d4d4d;
+}
+.ta-widget.overwrite .ta-service__button,
+.ta-widget.overwrite .ta-upselling__button {
+  background: #bfbfbf;
+  color: #4d4d4d;
+}
+.ta-widget.overwrite .ta-service__button:hover,
+.ta-widget.overwrite .ta-upselling__button:hover {
+  background: #8e8e8e;
+  color: #4d4d4d;
+}
+.ta-widget.overwrite .ta-service__button.active,
+.ta-widget.overwrite .ta-upselling__button.active {
+  background: #005092;
+  color: #ffffff;
+} /* AVAILABILITY */
+.ta-widget.overwrite .ta-datepicker .react-datepicker__day:hover {
+  color: #005092;
+  border-color: #005092;
+}
+.ta-widget.overwrite .ta-datepicker .react-datepicker__day--selected,
+.ta-widget.overwrite .ta-datepicker .react-datepicker__day--selected:hover,
+.ta-widget.overwrite .ta-datepicker .react-datepicker.datepicker-week .react-datepicker__week:hover .react-datepicker__day--selected,
+.ta-widget.overwrite .ta-datepicker .react-datepicker.datepicker-week .react-datepicker__week:hover .react-datepicker__day--selected:hover {
+  background: #005092;
+  border-color: #005092;
+  color: #ffffff;
+}
+.ta-widget.overwrite .ta-slots__slot,
+.ta-widget.overwrite .ta-other-days .ta-cta {
+  background-color: #4d4d4d;
+  color: #ffffff;
+}
+.ta-widget.overwrite .ta-slots__slot:hover,
+.ta-widget.overwrite .ta-other-days .ta-cta:hover {
+  background-color: #005092;
+  color: #ffffff;
+} /* AUTHENTICATION */
+.ta-widget.overwrite .ta-auth-link:hover {
+  color: #4d4d4d;
+}
+.ta-widget.overwrite .ta-popup-back:hover,
+.ta-widget.overwrite .ta-popup-close:hover {
+  color: #4d4d4d;
+}
+
+.ta-widget.overwrite .ta-datepicker .react-datepicker__day--selected,
+.ta-widget.overwrite .ta-datepicker .react-datepicker__day--selected:hover,
+.ta-widget.overwrite .ta-datepicker .react-datepicker.datepicker-week .react-datepicker__week:hover .react-datepicker__day--selected,
+.ta-widget.overwrite .ta-datepicker .react-datepicker.datepicker-week .react-datepicker__week:hover .react-datepicker__day--selected:hover {
+  background: #005092;
+  border-color: #005092;
+  color: #ffffff;
+}/* FORM COMPONENTS */ /* NORMAL STATE */ /* FILLED STATE */ /* FOCUS STATE */
