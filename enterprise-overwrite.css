@@ -169,10 +169,10 @@
   color: #4d4d4d;
 }
 
-.ta-widget.overwrite .ta-datepicker .react-datepicker__day--selected,
-.ta-widget.overwrite .ta-datepicker .react-datepicker__day--selected:hover,
-.ta-widget.overwrite .ta-datepicker .react-datepicker.datepicker-week .react-datepicker__week:hover .react-datepicker__day--selected,
-.ta-widget.overwrite .ta-datepicker .react-datepicker.datepicker-week .react-datepicker__week:hover .react-datepicker__day--selected:hover {
+.ta-widget.overwrite .ta-customer-fields .ta-datepicker .react-datepicker__day--selected,
+.ta-widget.overwrite .ta-customer-fields .ta-datepicker .react-datepicker__day--selected:hover,
+.ta-widget.overwrite .ta-customer-fields .ta-datepicker .react-datepicker.datepicker-week .react-datepicker__week:hover .react-datepicker__day--selected,
+.ta-widget.overwrite .ta-customer-fields .ta-datepicker .react-datepicker.datepicker-week .react-datepicker__week:hover .react-datepicker__day--selected:hover {
   background: #005092;
   border-color: #005092;
   color: #ffffff;
