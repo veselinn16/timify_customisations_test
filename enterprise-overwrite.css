@@ -146,7 +146,8 @@
 .ta-widget.overwrite .ta-datepicker .react-datepicker__day--selected,
 .ta-widget.overwrite .ta-datepicker .react-datepicker__day--selected:hover,
 .ta-widget.overwrite .ta-datepicker .react-datepicker.datepicker-week .react-datepicker__week:hover .react-datepicker__day--selected,
-.ta-widget.overwrite .ta-datepicker .react-datepicker.datepicker-week .react-datepicker__week:hover .react-datepicker__day--selected:hover {
+.ta-widget.overwrite .ta-datepicker .react-datepicker.datepicker-week .react-datepicker__week:hover .react-datepicker__day--selected:hover,
+.ta-date-input .react-datepicker__day--keyboard-selected, .ta-date-input .react-datepicker__day--selected, .ta-date-input .react-datepicker__day--in-selecting-range, .ta-date-input .react-datepicker__day--in-range {
   background: #005092;
   border-color: #005092;
   color: #ffffff;
